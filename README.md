@@ -1,10 +1,9 @@
 # Overview
-## This project expects to clone the UI from the CSmoney website, a popular CS2 marketplace
+### This project expects to clone the UI from the CSmoney website, a popular CS2 marketplace
 
 # Techstack
-## FE: React, Vite
-
-BE: Firebase
+### FE: React, Vite
+### BE: Firebase
 
 # React + TypeScript + Vite
 
