@@ -1,3 +1,11 @@
+# Overview
+## This project expects to clone the UI from the CSmoney website, a popular CS2 marketplace
+
+# Techstack
+## FE: React, Vite
+
+BE: Firebase
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
