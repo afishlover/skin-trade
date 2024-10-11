@@ -1,10 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import { createRoot } from 'react-dom/client';
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+import 'animate.css';
+import './globals.scss';
+
+setTimeout(async () => {
+  const container = document.getElementById('root');
+  if (!container) return;
+  const { App } = await import('./app');
+  createRoot(container).render(<App />);
+}, 1_000);
